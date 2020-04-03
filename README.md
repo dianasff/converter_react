@@ -1,5 +1,5 @@
 ## This is the Converter app
-In this app you can convert an amount of money from $(US Dollar) to R$(BR Real), and have the real amount of money you are going to pay, including tax.  
+In this app you can convert an amount of money from $(US Dollar) to R$(BR Real), and have the real amount of money you are going to pay, including taxes.  
 
 ## How to run the app
 
