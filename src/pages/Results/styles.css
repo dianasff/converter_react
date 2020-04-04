@@ -18,19 +18,16 @@
     justify-content: space-between;
     align-items: center;
 } 
-.principal .content section{
+.principal .content .presentation{
 width: 100%;
 max-width:380px;
 }
-.principal .content section h1{
+.principal .content .presentation h1{
 margin: 54px 0 32px;
 font-size:32px;
 }
-.principal .content section h2{
-    margin: 32px 0 28px;
-    font-size:25px;
-}
-.principal .content section p{
+
+.principal .content .presentation p{
 color: #737380;
 font-size:18px;
 line-height: 32px;
@@ -41,26 +38,7 @@ li{
     color: #737380;
 
 }
-.principal .content form{
+.principal .content .results{
 width: 100%;
 max-width:450px;
-}
-.principal .content form input{
-margin-top: 8px;
-
-}
-.principal .content form .radio{
-display: flex;
-margin-top:30px;
-margin-bottom: 25px;
-
-}
-.principal .content form .radio input{
-    height:25px;
-}
-.principal .content form .radio label{
-    font-weight: bold;
-    width:100%;
-    color:#333;
-    padding: 10px 24px;
 }
