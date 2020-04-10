@@ -5,7 +5,7 @@
     justify-content: center;
     width:100%;
     max-width: 1000px;
-    height: 100vh;
+    height: 120vh;
     margin: 0 auto;
 }
 .principal .content{
@@ -18,8 +18,6 @@
     flex-wrap:wrap;
     justify-content: space-between;
     align-items: center;
-    
-    
 } 
 .principal .content section{
 width: 100%;
@@ -40,36 +38,51 @@ color: #737380;
 font-size:18px;
 line-height: 32px;
 }
-li{
+.principal .content section li{
     font-size: 18px;
     list-style-type: none;
     color: #737380;
     line-height:30px;
 
 }
-li:nth-child(3){
+.principal .content section h3{
     color: green;
 }
-.principal .content form{
+.principal .content .form{
 width: 100%;
 max-width:420px;
 }
-.principal .content form input{
+.principal .content .content{
+    
+    padding:10px;
+    }
+.principal .content .form input{
 margin-top: 8px;
 
 }
-.principal .content form .radio{
+.principal .content .form .radio{
 display: flex;
 margin-top:30px;
 margin-bottom: 25px;
 
 }
-.principal .content form .radio input{
+.principal .content .form .radio input{
     height:25px;
 }
-.principal .content form .radio label{
+.principal .content .form .radio label{
     font-weight: bold;
     width:100%;
     color:#333;
     margin:8px 0 0;
 }
+@media (min-width: 320px) and (max-width: 640px) {
+    .principal .content section{
+        margin-top: 50em;
+    } 
+  }
+  @media (min-width: 760px) and (max-width: 1040px) {
+    .principal .content section{
+        margin-top: 15em;
+    } 
+  } 
+  
