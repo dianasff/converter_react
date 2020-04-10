@@ -1,0 +1,28 @@
+.false{
+    display:none;
+}
+.showresults{
+    display: block;
+    margin-top: 30px;
+    line-height: 35px;
+    color: black;
+    font-weight: bold;
+}
+.showresults li{
+    font-size: 1.4em;
+}
+.showresults li span{
+    color:green;
+}
+.form-label{
+    line-height: 40px;
+    color:gray;
+    font-weight: bold;
+    font-size: 20px;
+}
+@media (min-width: 320px) and (max-width: 640px) {
+    .showresults li{
+        font-size: 1em;
+    }
+  }
+  
