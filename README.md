@@ -2,7 +2,7 @@
 In this app you can convert an amount of money from $(US Dollar) to R$(BR Real), and have the real amount of money you are going to pay, including taxes.  
 
 ## How to use the App
-* Open [https://react-converter-app.herokuapp.com/] (Converter App) to view it in the browser.
+* Open [https://react-converter-app.herokuapp.com/](https://react-converter-app.herokuapp.com/) to view it in the browser.
 * Add an input of the amount of money you want to convert; 
 * The input only accepts numbers, and point(.);
 * For the tax input, it only accepts tax in this following format (#.##), since the cities tax use this format, for tax free you can type 0.00;   
